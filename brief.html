@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EL Insights — Macro Strategy Research</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            font-size: 10pt;
+        }
+        .page {
+            position: relative;
+            box-sizing: border-box;
+            page-break-after: always;
+            min-height: 297mm;
+        }
+        @media print {
+            body { margin: 0; }
+            .page { height: 100vh; min-height: unset; }
+        }
+        .header {
+            background-color: #0e7490;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24pt;
+            font-weight: 700;
+        }
+        .header .subtitle {
+            font-size: 12pt;
+            font-style: italic;
+        }
+        .header-meta {
+            text-align: right;
+            font-size: 9pt;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        .main-col {
+            flex: 2;
+        }
+        .side-col {
+            flex: 1;
+        }
+        .theme-title {
+            color: #0e7490;
+            font-size: 18pt;
+            margin-top: 0;
+            margin-bottom: 5px;
+            border-bottom: 2px solid #06b6d4;
+            padding-bottom: 5px;
+        }
+        .summary {
+            font-style: italic;
+            background-color: #e0f7fa;
+            padding: 15px;
+            border-left: 4px solid #0e7490;
+            margin-bottom: 20px;
+        }
+        .summary ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .summary li {
+            margin-bottom: 8px;
+        }
+        .section-title {
+            color: #0e7490;
+            font-size: 14pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .chart-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .chart-title {
+            font-weight: bold;
+            color: #0e7490;
+            margin-bottom: 10px;
+        }
+        .key-events {
+            border: 1px solid #06b6d4;
+        }
+        .key-events-header {
+            background-color: #06b6d4;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 11pt;
+        }
+        .key-events-list {
+            padding: 15px;
+        }
+        .event-item {
+            margin-bottom: 10px;
+            font-size: 9pt;
+        }
+        .event-date {
+            font-weight: bold;
+            color: #0e7490;
+        }
+        table.forecasts {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 9pt;
+            margin-top: 20px;
+        }
+        table.forecasts th {
+            background-color: #06b6d4;
+            color: white;
+            padding: 8px;
+            text-align: left;
+        }
+        table.forecasts td {
+            padding: 8px;
+            border-bottom: 1px solid #ccc;
+        }
+        table.forecasts tr:nth-child(even) {
+            background-color: #e0f7fa;
+        }
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            text-align: center;
+            font-size: 8pt;
+            color: #777;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+        .content-body p {
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- PAGE 1 -->
+    <div class="page">
+        <div class="header">
+            <div>
+                <h1>EL Insights</h1>
+                <div class="subtitle">Macro Strategy Research</div>
+            </div>
+            <div class="header-meta">
+                <div><strong>Date:</strong> April 28 2026</div>
+                <div><strong>Analyst:</strong> E. Leow, Chief Macro Strategist</div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="main-col">
+                <h2 class="theme-title">Dollar in Retreat: USD weakness dominates G3 divergence</h2>
+                
+                <div class="summary">
+                    <ul>
+                        <li>The Federal Reserve maintains rates at 3.50–3.75%, defying previous expectations of sharper hikes.</li>
+                        <li>The European Central Bank holds the deposit rate at 2.00%, presenting a robust Euro narrative despite regional growth concerns.</li>
+                        <li>The Bank of Japan holds at 0.75%, but a notable hawkish signal emerges with 3 board members voting to hike.</li>
+                        <li><strong>FX Outlook:</strong> EUR/USD strength reaches 1.1791, highlighting pure USD weakness. Surprisingly, the carry trade remains resilient, keeping USD/JPY elevated around 158–159 despite hawkish BOJ dissent.</li>
+                    </ul>
+                </div>
+
+                <div class="chart-box">
+                    <div class="chart-title">Chart of the Week: G3 Policy Rate Divergence (2022-2026)</div>
+                    <!-- Inline SVG Chart -->
+                    <svg width="400" height="200" viewBox="0 0 400 200" style="background: #fafafa; border: 1px solid #eee;">
+                        <!-- Grid -->
+                        <line x1="40" y1="20" x2="380" y2="20" stroke="#ddd" />
+                        <line x1="40" y1="60" x2="380" y2="60" stroke="#ddd" />
+                        <line x1="40" y1="100" x2="380" y2="100" stroke="#ddd" />
+                        <line x1="40" y1="140" x2="380" y2="140" stroke="#ddd" />
+                        <line x1="40" y1="180" x2="380" y2="180" stroke="#333" />
+                        
+                        <line x1="40" y1="20" x2="40" y2="180" stroke="#333" />
+                        
+                        <!-- Y Axis Labels -->
+                        <text x="30" y="24" font-size="10" text-anchor="end">5%</text>
+                        <text x="30" y="64" font-size="10" text-anchor="end">4%</text>
+                        <text x="30" y="104" font-size="10" text-anchor="end">3%</text>
+                        <text x="30" y="144" font-size="10" text-anchor="end">2%</text>
+                        <text x="30" y="184" font-size="10" text-anchor="end">0%</text>
+                        
+                        <!-- X Axis Labels -->
+                        <text x="40" y="195" font-size="10" text-anchor="middle">2022</text>
+                        <text x="125" y="195" font-size="10" text-anchor="middle">2023</text>
+                        <text x="210" y="195" font-size="10" text-anchor="middle">2024</text>
+                        <text x="295" y="195" font-size="10" text-anchor="middle">2025</text>
+                        <text x="380" y="195" font-size="10" text-anchor="middle">2026</text>
+                        
+                        <!-- Fed Path (blue) -->
+                        <polyline points="40,180 125,10 210,20 295,40 380,70" fill="none" stroke="#0e7490" stroke-width="3" />
+                        <text x="360" y="65" font-size="10" fill="#0e7490" font-weight="bold">Fed</text>
+
+                        <!-- ECB Path (cyan) -->
+                        <polyline points="40,180 125,60 210,70 295,120 380,140" fill="none" stroke="#06b6d4" stroke-width="3" />
+                        <text x="360" y="135" font-size="10" fill="#06b6d4" font-weight="bold">ECB</text>
+
+                        <!-- BOJ Path (red/gray) -->
+                        <polyline points="40,184 125,184 210,170 295,160 380,150" fill="none" stroke="#555" stroke-width="3" />
+                        <text x="360" y="165" font-size="10" fill="#555" font-weight="bold">BOJ</text>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="side-col">
+                <div class="key-events">
+                    <div class="key-events-header">Key Events This Week</div>
+                    <div class="key-events-list">
+                        <div class="event-item"><span class="event-date">Apr 29:</span> Eurozone Flash CPI (Est. 2.1% YoY)</div>
+                        <div class="event-item"><span class="event-date">May 1:</span> FOMC Rate Decision (Exp. Hold at 3.75% upper)</div>
+                        <div class="event-item"><span class="event-date">May 3:</span> US Non-Farm Payrolls (Est. +185k)</div>
+                        <div class="event-item"><span class="event-date">May 5:</span> BOJ Summary of Opinions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">This brief is prepared for EL Insights strategy team internal use only. Not intended as financial advice. Prepared in accordance with MAS regulatory guidelines for internal research.</div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="page">
+        <div class="header" style="padding: 10px 20px;">
+            <div><h1 style="font-size: 16pt;">EL Insights — Macro Strategy Research</h1></div>
+            <div class="header-meta"><div>April 28 2026 | E. Leow</div></div>
+        </div>
+
+        <div class="container">
+            <div class="main-col content-body">
+                <h3 class="section-title">Central Bank Policy Implications</h3>
+                
+                <p><strong>The Federal Reserve:</strong> The Fed remains anchored at an upper bound of 3.75%, contrary to early expectations of sharper 4.00%+ hikes. A broad-based dollar weakness has taken hold as market participants digest a more dovish reality than previously priced in.</p>
+                
+                <p><strong>The European Central Bank:</strong> Despite structural growth headwinds in the Eurozone, the ECB has successfully maintained its deposit rate at 2.00% since February. This steadfastness has fueled a remarkable rally in EUR/USD, reflecting a pure USD weakness narrative rather than an overwhelming Eurozone economic renaissance.</p>
+                
+                <p><strong>The Bank of Japan:</strong> The BOJ held its rate at 0.75%, but the underlying dynamics have shifted. With 3 board members voting to hike, the hawkish undercurrent is undeniable. However, structural carry trade dynamics have proven incredibly resilient, keeping the Yen surprisingly weak.</p>
+
+                <h3 class="section-title">FX Strategy Outlook</h3>
+                <p>Our core thesis centers on the structural retreat of the US Dollar across major pairs. The EUR/USD trajectory toward 1.1791 defies traditional growth differentials, underscoring that global liquidity dynamics and Fed repricing are in the driver's seat. For the Yen, despite the hawkish dissent at the BOJ, the carry trade remains highly attractive, resulting in a counter-intuitive USD/JPY sustained near the 158–159 handle. GBP/USD has also benefited tremendously from the dollar sell-off, surging to 1.3544. Strategically, we favor long EUR exposures while remaining highly tactical on JPY interventions.</p>
+            </div>
+
+            <div class="side-col">
+                <h3 class="section-title">Key Forecasts</h3>
+                <table class="forecasts">
+                    <tr>
+                        <th>Pair</th>
+                        <th>Current</th>
+                        <th>Q2 26</th>
+                        <th>Q3 26</th>
+                    </tr>
+                    <tr>
+                        <td>EUR/USD</td>
+                        <td>1.1791</td>
+                        <td>1.1850</td>
+                        <td>1.2000</td>
+                    </tr>
+                    <tr>
+                        <td>USD/JPY</td>
+                        <td>158.50</td>
+                        <td>159.00</td>
+                        <td>155.00</td>
+                    </tr>
+                    <tr>
+                        <td>EUR/JPY</td>
+                        <td>186.80</td>
+                        <td>188.40</td>
+                        <td>186.00</td>
+                    </tr>
+                    <tr>
+                        <td>GBP/USD</td>
+                        <td>1.3544</td>
+                        <td>1.3600</td>
+                        <td>1.3750</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer">This brief is prepared for EL Insights strategy team internal use only. Not intended as financial advice. Prepared in accordance with MAS regulatory guidelines for internal research.</div>
+    </div>
+</body>
+</html>
