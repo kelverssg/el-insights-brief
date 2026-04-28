@@ -51,7 +51,7 @@ npm run pdf
 ## The "I Know Kung Fu" Moment
 
 `skill.md` contains:
-- The analyst **persona** (E. Leow, Chief Macro Strategist)
+- The analyst **persona** (Chief Macro Strategist)
 - **Coverage scope** (G10 rates, FX, EM Asia)
 - **Sources to check** (Fed, ECB, BOJ, BIS, IMF, FT)
 - **Format discipline** (2 pages, inline SVG charts, Key Events box, forecasts table)
